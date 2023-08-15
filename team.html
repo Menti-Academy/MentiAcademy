@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Menti Academy</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Menti Academy">
+    <meta name="description"
+        content="Descubre una forma segura y estimulante para que tus hijos desarrollen habilidades en tecnología y ciencia. En Menti Academy, brindamos una experiencia educativa en línea que fomenta la experimentación y la creatividad. ¡Inscríbete hoy!">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mentiacademy.tech/">
+    <meta property="og:title" content="Menti Academy">
+    <meta property="og:description"
+        content="Descubre una forma segura y estimulante para que tus hijos desarrollen habilidades en tecnología y ciencia. En Menti Academy, brindamos una experiencia educativa en línea que fomenta la experimentación y la creatividad. ¡Inscríbete hoy!">
+    <meta property="og:image" content="img/metaScreen.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mentiacademy.tech/">
+    <meta property="twitter:title" content="Menti Academy">
+    <meta property="twitter:description"
+        content="Descubre una forma segura y estimulante para que tus hijos desarrollen habilidades en tecnología y ciencia. En Menti Academy, brindamos una experiencia educativa en línea que fomenta la experimentación y la creatividad. ¡Inscríbete hoy!">
+    <meta property="twitter:image" content="img/metaScreen.jpg">
+
+    <meta name="keywords"
+        content="academia, enseñanza, online, tecnología, ciencia, niños, experimentación, creatividad, Tecnología para niños en Bolivia, Academia de tecnología para niños en Bolivia, Enseñanza de ciencia para niños en línea en Bolivia, Habilidades tecnológicas para niños en Bolivia, Educación en línea para niños en Bolivia, Aprendizaje en línea para niños en Bolivia, Desarrollo de habilidades para niños en Bolivia, Programación para niños en Bolivia, Robótica para niños en Bolivia, Ciencia y tecnología para niños en Bolivia, Tutorías en línea para niños en Bolivia">
+
+    <meta name="facebook-domain-verification" content="m47v4okqvppe9mknq5tnj350r6287h" />
+
+
+    <meta property="og:image" content="img/metaScreen.jpg">
+
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,200;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-light position-relative shadow ">
+        <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5 ">
+            <a href="index.html" class="navbar-brand font-weight-bold text-secondary">
+                <img style="width: 40px;" src="img/logo.png" alt="">
+                <span class="text-primary">Menti Academy</span>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav font-weight-bold mx-auto py-0">
+                    <a href="index.html" class="nav-item nav-link ">Inicio</a>
+                    <a href="about.html" class="nav-item nav-link">Sobre Nosotros</a>
+                    <a href="class.html" class="nav-item nav-link">Cursos</a>
+                    <a href="team.html" class="nav-item nav-link active">Mentores</a>
+                </div>
+                <!-- Botón para abrir el modal -->
+                <a href="#" class="btn btn-primary px-4" data-toggle="modal" data-target="#agendaModal">Agenda tu
+                    clase</a>
+
+                <!-- Modal -->
+                <div class="modal fade" id="agendaModal" tabindex="-1" role="dialog" aria-labelledby="agendaModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="card-body rounded-bottom bg-primary p-5">
+                                <form action="https://formspree.io/f/xyyqelbw"
+                                method="POST">
+                                    <label style="width: 100%;" class="form-group">
+                                        <input type="text" name="name" class="form-control border-0 p-4"
+                                            placeholder="Nombre Completo" required="required">
+                                    </label>
+                                    <label style="width: 100%;" class="form-group">
+                                        <input type="email" name="email" class="form-control border-0 p-4"
+                                            placeholder="Correo Electrónico" required="required">
+                                    </label>
+                                    <label style="width: 100%;" class="form-group">
+                                        <input type="number" name="number" class="form-control border-0 p-4"
+                                            placeholder="Número de Teléfono" required="required">
+                                    </label>
+                                    <label style="width: 100%;" class="form-group" id="options">
+                                        <select class="custom-select border-0 px-4" name="options" style="height: 47px;" id="options" required="">
+                                            <option value="" selected="" disabled="">Selecciona una Opción</option>
+                                            <option value="Cursos">Asesoría de Cursos</option>
+                                            <option value="Horarios">Asesoría de Horarios</option>
+                                            <option value="Otro">Otro</option>
+                                        </select>
+                                    </label>
+                                   
+                                        <button class="btn btn-secondary btn-block border-0 py-3"
+                                            type="submit">Enviar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary mb-5">
+        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
+            <h3 class="display-3 font-weight-bold text-white">Nuestros Mentores</h3>
+            <div class="d-inline-flex text-white">
+                <p class="m-0"><a class="text-white" href="">Inicio</a></p>
+                <p class="m-0 px-2">/</p>
+                <p class="m-0">Mentores</p>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid pt-5">
+        <div class="container">
+            <div class="text-center pb-2">
+                <p class="section-title px-5"><span class="px-2">Nuestros Mentores</span></p>
+                <h1 class="mb-4">Conoce a nuestros mentores</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 text-center team mb-5">
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
+                        <img class="img-fluid w-100" src="img/mentor-1.jpg" alt="" >
+                        <div
+                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                            
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <h4>Manuela Ballen 🇨🇴</h4>
+                    <i>Mentora Cubo Rubik</i>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-5">
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
+                        <img class="img-fluid w-100" src="img/mentor-2.jpg" alt="" >
+                        <div
+                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                            
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <h4>Gustavo Villarroel 🇧🇴</h4>
+                    <i>Mentor</i>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-5">
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
+                        <img class="img-fluid w-100" src="img/mentor-3.jpg" alt="" >
+                        <div
+                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                            
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <h4>Alvaro Viamont 🇧🇴</h4>
+                    <i>Mentor Roblox</i>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-5">
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
+                        <img class="img-fluid w-100" src="img/mentor-4.jpg" alt="" >
+                        <div
+                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                            
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <h4>Dennis Calle 🇪🇨</h4>
+                    <i>Mentor Minecraft</i>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-5">
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
+                        <img class="img-fluid w-100" src="img/mentor-6.jpg" alt="" >
+                        <div
+                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                            
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <h4> Belen Rodriguez 🇧🇴  </h4>
+                    <i>Mentora Ajedrez</i>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-5">
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
+                        <img class="img-fluid w-100" src="img/mentor-7.jpg" alt="" >
+                        <div
+                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                            
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <h4>Vinze Gonzales 🇧🇴</h4>
+                    <i>Mentor Roblox</i>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-5">
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
+                        <img class="img-fluid w-100" src="img/mentor-5.jpg" alt="" >
+                        <div
+                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                           
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <h4>María René Torrez 🇧🇴</h4>
+                    <i>Mentora Robótica Hidráulica</i>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-5">
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
+                        <img class="img-fluid w-100" src="img/mentor-8.jpg" alt="" >
+                        <div
+                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                            
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <h4>Gabriela Zubieta 🇧🇴</h4>
+                    <i>Mentora Cubo Rubik</i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5">
+        <div class="container p-0">
+            <div class="text-center pb-2">
+                <p class="section-title px-5"><span class="px-2">Testimonios</span></p>
+                <h1 class="mb-4">
+                    ¡Lo que dicen los Padres!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="testimonial-item px-3">
+                    <div class="bg-light shadow-sm rounded mb-4 p-4">
+                        <h3 class="fas fa-quote-left text-primary mr-3"></h3>
+                        Me sorprende cómo los cursos han capturado el interés de mi hijo. Ahora está emocionado por
+                        aprender.
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="rounded-circle" src="img/man.png" style="width: 70px; height: 70px;" alt="Image">
+                        <div class="pl-3">
+                            <h5>Carlos Mamani</h5>
+                            <i>Curso Roblox</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item px-3">
+                    <div class="bg-light shadow-sm rounded mb-4 p-4">
+                        <h3 class="fas fa-quote-left text-primary mr-3"></h3>
+                        Los cursos han brindado a mi hija una nueva perspectiva sobre el aprendizaje. Ha mejorado sus
+                        habilidades.
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="rounded-circle" src="img/woman.png" style="width: 70px; height: 70px;" alt="Image">
+                        <div class="pl-3">
+                            <h5>Brenda Illanes</h5>
+                            <i>Curso Cubo Rubik</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item px-3">
+                    <div class="bg-light shadow-sm rounded mb-4 p-4">
+                        <h3 class="fas fa-quote-left text-primary mr-3"></h3>
+                        Estoy impresionado como mi hijo a desarrollo habilidades en la resolución de problemas.
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="rounded-circle" src="img/woman-2.png" style="width: 70px; height: 70px;"
+                            alt="Image">
+                        <div class="pl-3">
+                            <h5>Maria Alarcon</h5>
+                            <i>Curso Cubo Rubik</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item px-3">
+                    <div class="bg-light shadow-sm rounded mb-4 p-4">
+                        <h3 class="fas fa-quote-left text-primary mr-3"></h3>
+                        Los cursos han demostrado ser una inversión valiosa para el futuro de mi hijo. Ha adquirido
+                        habilidades relevantes.
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="rounded-circle" src="img/man-2.png" style="width: 70px; height: 70px;" alt="Image">
+                        <div class="pl-3">
+                            <h5>Oscar Camargo</h5>
+                            <i>Curso IA</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+
+                <a href="index.html" class="navbar-brand font-weight-bold text-primary">
+                    <img style="width: 40px;" src="img/logo.png" alt="">
+                    <span class="text-white">Menti Academy</span>
+                </a>
+                <p>Academia de enseñanza online dedicada a desarrollar habilidades en tecnología y ciencia para niños.
+                </p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="https://www.facebook.com/MentiAcademy"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="https://www.linkedin.com/company/menti-academy/"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="https://www.instagram.com/mentiacademy/"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h3 class="text-primary mb-4">¡Ponte en Contacto!
+                </h3>
+                <div class="d-flex">
+                    <h4 class="fa fa-envelope text-primary"></h4>
+                    <div class="pl-3">
+                        <h5 class="text-white">Correo</h5>
+                        <p>menti.cbba@gmail.com</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <h4 class="fa fa-phone-alt text-primary"></h4>
+                    <div class="pl-3">
+                        <h5 class="text-white">Celular</h5>
+                        <p>+591 69525100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h3 class="text-primary mb-4">
+                    Enlaces Rápidos</h3>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Inicio</a>
+                    <a class="text-white mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>Sobre
+                        Nosotros</a>
+                    <a class="text-white mb-2" href="class.html"><i class="fa fa-angle-right mr-2"></i>Cursos</a>
+                    <a class="text-white mb-2" href="team.html"><i class="fa fa-angle-right mr-2"></i>Mentores</a>
+                    
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h3 class="text-primary mb-4">¡Contáctanos Ahora!</h3>
+                <form action="https://formspree.io/f/xeqbavpz"
+                method="POST">
+                    <label style="width: 100%;" class="form-group">
+                        <input  name="name" type="text" class="form-control border-0 py-4" placeholder="Nombre Completo"
+                            required="required" />
+                    </label>
+                    <label style="width: 100%;" class="form-group">
+                        <input name="number" type="number" class="form-control border-0 py-4" placeholder="Numero de Telefono"
+                            required="required" />
+                    </label>
+                    
+                        <button class="btn btn-primary btn-block border-0 py-3" type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+        <div class="container-fluid pt-5" style="border-top: 1px solid rgba(23, 162, 184, .2);;">
+            <p class="m-0 text-center text-white">
+                &copy; <a class="text-primary font-weight-bold" href="#">Menti Academy</a>. All Rights Reserved.
+                Designed
+                by
+                <a class="text-primary font-weight-bold" href="https://mentiacademy.tech">Menti Academy</a>
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary p-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
