@@ -1,6 +1,21 @@
 (function ($) {
     "use strict";
     
+
+    var player;
+
+    function onYouTubeIframeAPIReady() {
+      player = new YT.Player('youtube-player', {
+        videoId: '5QYqmTSJWRo', // ID del video de YouTube
+        playerVars: {
+          autoplay: 0, // No reproducción automática
+          controls: 1, // Mostrar controles del reproductor
+          modestbranding: 1, // Ocultar logo de YouTube
+          rel: 0 // No mostrar videos relacionados al final
+        }
+      });
+    }
+
     // Dropdown on mouse hover
     $(document).ready(function () {
         function toggleNavbarMethod() {

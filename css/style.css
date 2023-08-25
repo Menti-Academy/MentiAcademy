@@ -312,6 +312,33 @@ legend {
   white-space: normal;
 }
 
+
+.sidebar .widget {
+  position: relative;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.sidebar .banner-spot {
+  background-image: none;
+  padding: 5px;
+}
+
+.sidebar .instagram-wrapper a {
+  width: 33.3333%;
+  margin: 0;
+  float: left;
+  border-right: 5px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
+}
+
+.custom-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/imgBgMine.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+
 @media (max-width: 1200px) {
   legend {
     font-size: calc(1.275rem + 0.3vw) ;
