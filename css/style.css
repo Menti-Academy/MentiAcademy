@@ -313,27 +313,33 @@ legend {
 }
 
 
-.sidebar .widget {
-  position: relative;
-  display: block;
-  margin-bottom: 3rem;
-}
 
-.sidebar .banner-spot {
-  background-image: none;
-  padding: 5px;
-}
 
-.sidebar .instagram-wrapper a {
-  width: 33.3333%;
-  margin: 0;
-  float: left;
-  border-right: 5px solid #ffffff;
-  border-bottom: 5px solid #ffffff;
-}
-
-.custom-bg {
+.custom-bg-Min {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/imgBgMine.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.custom-bg-Rob {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/imgBgRob.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.custom-bg-SC {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/imgBgSC.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.custom-bg-Ia {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/imgBgIa.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.custom-bg-Rubik {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/imgBgRubik.jpg");
   background-size: cover;
   background-position: center;
 }
