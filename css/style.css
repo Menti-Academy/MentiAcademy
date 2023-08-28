@@ -344,6 +344,22 @@ legend {
   background-position: center;
 }
 
+.custom-bg-Bss {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/imgBgBss.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 140px 0px;
+}
+
+@media screen and (max-width: 425px) {
+  .custom-bg-Bss {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bgBssResponsive.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 140px 0px;
+  }
+  
+}
 
 @media (max-width: 1200px) {
   legend {
